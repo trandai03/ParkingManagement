@@ -23,4 +23,5 @@ public class ParkingSessionDTO {
     private String licensePlateImageExit;
     private String status;
     private BigDecimal totalCost;
+    private Integer code;
 }

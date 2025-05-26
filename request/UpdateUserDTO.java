@@ -20,6 +20,5 @@ public class UpdateUserDTO {
     private String fullName;
     private LocalDate dateOfBirth;
     private String phoneNumber;
-    private String password;
     private String role;
 }
