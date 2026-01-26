@@ -1,5 +1,6 @@
 package com.project.parking.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Schema(description = "DTO for parking session information")
 public class ParkingSessionDTO {
     private Long id;
     private Long lotId;
@@ -24,4 +26,10 @@ public class ParkingSessionDTO {
     private String status;
     private BigDecimal totalCost;
     private Integer code;
+    
+    @Schema(description = "Xe có thuộc về member đang hoạt động không")
+    private Boolean isMemberVehicle;
+    
+    @Schema(description = "Mã thẻ member (nếu là xe của member)")
+    private String memberCode;
 }
