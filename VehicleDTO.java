@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class VehicleDTO {
     private Long id;
-    private Long userId;
+    private Long memberId;
     private String licensePlate;
     private String vehicleType;
 }

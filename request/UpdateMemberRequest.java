@@ -24,7 +24,7 @@ public class UpdateMemberRequest {
     private String email;
 
     @Schema(description = "Họ và tên", example = "Nguyễn Văn A")
-    private String fullName;
+    private String fullname;
 
     @Schema(description = "Ngày sinh", example = "1990-01-15")
     private LocalDate dateOfBirth;

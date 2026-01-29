@@ -49,7 +49,7 @@ public class CreateMemberRequest {
 
     @NotNull(message = "Full name is required")
     @Schema(description = "Họ và tên", example = "Nguyễn Văn A")
-    private String fullName;
+    private String fullname;
     
     @Schema(description = "Số phòng", example = "C101")
     private String roomNumber;

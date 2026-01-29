@@ -17,7 +17,6 @@ public class PaymentDTO {
     private Long sessionId;
     private BigDecimal amount;
     private String paymentMethod;
-    private String transactionId;
     private String status;
     private LocalDateTime paymentTime;
 }

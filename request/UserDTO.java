@@ -21,7 +21,7 @@ public class UserDTO {
     @Pattern(regexp = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$", message = "Invalid email")
     private String email;
 
-    private String fullName;
+    private String fullname;
     private LocalDate dateOfBirth;
     private String phoneNumber;
     private String role;
