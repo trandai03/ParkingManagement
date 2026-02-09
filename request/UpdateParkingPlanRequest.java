@@ -57,5 +57,8 @@ public class UpdateParkingPlanRequest {
 
     @Schema(description = "Thứ tự hiển thị")
     private Integer sortOrder;
+
+    @Schema(description = "Thời gian sử dụng gói (tháng)", example = "1")
+    private Integer durationMonths;
 }
 

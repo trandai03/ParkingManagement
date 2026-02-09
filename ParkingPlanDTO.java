@@ -34,5 +34,6 @@ public class ParkingPlanDTO {
     private Integer sortOrder;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+    private Integer durationMonths;
 }
 

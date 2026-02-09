@@ -64,5 +64,8 @@ public class CreateParkingPlanRequest {
 
     @Schema(description = "Thứ tự hiển thị", example = "1")
     private Integer sortOrder = 0;
+
+    @Schema(description = "Thời gian sử dụng gói (tháng)", example = "1")
+    private Integer durationMonths = 1;
 }
 
