@@ -32,10 +32,5 @@ public class MemberSearchRequest {
     @Schema(description = "Trạng thái thẻ", example = "ACTIVE")
     private MemberStatus memberStatus;
 
-    @Schema(description = "Số trang (bắt đầu từ 0)", example = "0")
-    private Integer page = 0;
-
-    @Schema(description = "Số phần tử mỗi trang", example = "10")
-    private Integer size = 10;
 }
 

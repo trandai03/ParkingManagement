@@ -6,6 +6,7 @@ import jakarta.validation.constraints.Pattern;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @Getter
@@ -35,5 +36,7 @@ public class UpdateMemberRequest {
 
     @Schema(description = "Địa chỉ", example = "123 Nguyễn Huệ, Q.1, TP.HCM")
     private String address;
+
+    private List<VehicleRequest> vehicles;
 }
 
