@@ -12,4 +12,5 @@ public class ParkingSessionRequest {
     private String licensePlate;
     private Integer code;
     private String vehicleType;
+    private String memberCode;
 }
